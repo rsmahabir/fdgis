@@ -7,7 +7,7 @@ from os.path import isfile
 try:
     from PIL import Image
 except Exception as e:
-    print (e)
+    print (e) # Edited
 
 from requests import post
 if python_version == 2:
